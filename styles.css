@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(229, 200, 200);
+    font-family:'Fira Sans',sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 16px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding:20px 0 ;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width:100vw;
+}
+.container{
+    display: flex;
+
+}
+.infoContainer{
+    /* background-color:pink; */
+    height: 58vh;
+    width:80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro',monospace;
+}
+.devPic img{
+    height:58vh;
+    /* width: 20vw; */
+}
+.hello{
+        font-size: 55px;
+        /* font-family:  'Source Code Pro', monospace; */
+}
+.name{
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Fira Sans',sans-serif;
+}
+.about{
+        font-size: 40px;
+        font-family:  'Source Code Pro', monospace;
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23pxg;
+    font-family: 'Fira Sans',sans-serif;
+}
+.buttons{
+    margin-top: 34px ;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    
+}
+.btn-sm{
+    font-size: 10px;
+    padding:7px 13px;
+    margin: 10px 0;
+}
+.btn:hover {
+     background-color: white;
+     color: dodgerblue;
+}
+.contactform {
+    margin: 0 88px;
+    padding: 0 34px;
+    padding-top: 144px;
+    margin: 0 88px;
+    font-family:'Fira Sans',sans-serif;
+
+}
+.contactform h1{
+    font-family: 'Source Code Pro',monospace;
+    padding: 12px 0;
+}    
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+ }
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+
+ }
+ #form-check{
+    flex-direction: row;
+ }
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem{
+    margin: 20px ;
+    font-family:'Fira Sans',sans-serif;
+}
+.blogContainer{
+    margin:88px;
+}
+.blogContainer h1{
+    font-family:'Fira Sans',sans-serif;
+    margin: 23px;
+    
+}
+.blogItem p{
+    font-family: 'Source Code Pro',monospace;
+}
+.introContainer{
+    margin: 88px;
+}
+.introContainer h1{
+    font-family:'Fira Sans',sans-serif;
+    margin: 23px;
+
+}
+.introContainer h2{
+    font-family:'Fira Sans',sans-serif;
+    margin: 23px;
+
+}
+.introContainer p{
+    font-family: 'Source Code Pro',monospace;
+    margin: 22px;
+}
+.skillContainer{
+    margin: 23px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    /* border: 2px solid black; */
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro',monospace;
+    font-weight: 600;
+}
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+
+}
+.fifty{
+    width:  132px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position:absolute;
+}
+
+.hamburger {
+    /* margin-top: 10px; */
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.cross{
+    margin-left:125px;
+}
+
+
+@media (max-width:1085px){
+    *{
+        /* background-color:rosybrown; */
+    }
+    .devPic{
+        display: none;
+    }
+/* 
+    .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    } */
+}
+
+.gallaryContainer{
+    background-color: blueviolet;
+    display: grid;
+}
+.cont1{
+    
+    /* display: grid; */
+    margin: 20px 70px;
+    padding: 20px;
+    width: 275px;
+    height: 243px;
+    background-color: green;
+}
